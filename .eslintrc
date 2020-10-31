@@ -38,7 +38,8 @@
   "settings": {
     "import/resolver": {
       "alias": [
-        ["components", "./src/client/components"]
+        ["components", "./src/client/components"],
+        ["helpers", "./src/client/helpers"]
       ]
     }
   },

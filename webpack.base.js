@@ -23,7 +23,8 @@ module.exports = {
     // Bellow we setup aliases for easy development process
     resolve: {
         alias: {
-            components: path.resolve(__dirname, './src/client/components')
+            components: path.resolve(__dirname, './src/client/components'),
+            helpers: path.resolve(__dirname, './src/client/helpers')
         }
     }
 }
