@@ -1,0 +1,50 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:react/recommended"
+  ],
+  "globals": {
+    "GLOBALS": false,
+    "configure": false,
+    "localDevBackend": false,
+    "mount": false,
+    "React": false,
+    "render": false,
+    "shallow": false,
+    "expect": false,
+    "test": false,
+    "describe": false
+  },
+  "plugins": [
+    "react",
+    "prettier"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "es6": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        ["components", "./src/client/components"]
+      ]
+    }
+  },
+  "rules": {
+    "no-prototype-builtins": 0,
+    "react/display-name": 0,
+    "react/prop-types": 0
+  }
+}
