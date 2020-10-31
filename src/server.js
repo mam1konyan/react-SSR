@@ -9,7 +9,7 @@ app.get('/', ({ req, res }) => {
 })
 
 app.listen(3000, () => {
-    console.log('===================')
-    console.log('Server starting....')
-    console.log('===================')
+    console.log('======================')
+    console.log('Server is starting....')
+    console.log('======================')
 })
