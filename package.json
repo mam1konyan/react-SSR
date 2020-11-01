@@ -22,7 +22,7 @@
         "webpack-merge": "^4.1.0",
         "webpack-node-externals": "^1.6.0"
     },
-    "description": "Personal website",
+    "description": "ReactJS Server Side Rendering boilerplate with React Router and Redux",
     "devDependencies": {
         "@babel/core": "^7.9.6",
         "@babel/plugin-proposal-class-properties": "^7.4.4",
@@ -50,7 +50,7 @@
     },
     "license": "ISC",
     "main": "src/index.js",
-    "name": "mamikonyan.io",
+    "name": "ReactSSR",
     "scripts": {
         "dev:server-watch": "nodemon --watch build --exec \"node build/bundle.js\"",
         "dev:server-build": "webpack --config webpack.server.js --watch",
