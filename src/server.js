@@ -4,8 +4,8 @@ import render from './renderHandler'
 const app = express()
 
 app.use(express.static('public'))
-app.get('/', ({ req, res }) => {
-    res.send(render())
+app.get('*', (req, res) => {
+    res.send(render(req))
 })
 
 app.listen(3000, () => {
